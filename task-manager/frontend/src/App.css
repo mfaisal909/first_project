@@ -1,0 +1,21 @@
+* { box-sizing: border-box; }
+body { font-family: system-ui, sans-serif; margin: 0; background: #f5f6fa; color: #222; }
+.app { max-width: 720px; margin: 2rem auto; padding: 0 1rem; }
+header h1 { margin: 0; }
+.count { color: #555; margin-top: 0.25rem; }
+.task-form { display: flex; gap: 0.5rem; margin: 1rem 0; flex-wrap: wrap; }
+.task-form input { flex: 1; min-width: 160px; padding: 0.5rem; border: 1px solid #ccc; border-radius: 6px; }
+.task-form button { padding: 0.5rem 1rem; background: #4f46e5; color: #fff; border: none; border-radius: 6px; cursor: pointer; }
+.task-list { list-style: none; padding: 0; margin: 0; }
+.task-item { display: flex; align-items: center; gap: 0.5rem; padding: 0.75rem; background: #fff; border: 1px solid #e5e7eb; border-radius: 8px; margin-bottom: 0.5rem; flex-wrap: wrap; }
+.task-item.completed .task-title { text-decoration: line-through; color: #888; }
+.task-content { display: flex; align-items: center; gap: 0.5rem; flex: 1; flex-wrap: wrap; }
+.task-title { font-weight: 600; }
+.task-desc { color: #666; font-size: 0.9rem; }
+.task-actions { margin-left: auto; display: flex; gap: 0.25rem; }
+.task-actions button, .edit-fields button { padding: 0.3rem 0.6rem; border: 1px solid #ccc; background: #fff; border-radius: 4px; cursor: pointer; }
+.edit-fields { display: flex; gap: 0.5rem; flex: 1; flex-wrap: wrap; }
+.edit-fields input { flex: 1; min-width: 120px; padding: 0.4rem; border: 1px solid #ccc; border-radius: 4px; }
+.error { color: #dc2626; }
+.empty { color: #888; font-style: italic; }
+section h2 { margin-top: 1.5rem; }
